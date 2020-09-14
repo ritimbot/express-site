@@ -41,6 +41,6 @@ app.get("*", (request, response) => {
   response.sendFile(__dirname + "/404.html");
 });
 
-const listener = app.listen(process.env.PORT, () => {
-  console.log("ekspires dinlemeede! : " + listener.address().port);
+app.listen(process.env.PORT, function() {
+  console.log("ekspires dinlemeede! : " + this.address().port);
 });
