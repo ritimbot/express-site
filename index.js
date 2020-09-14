@@ -30,7 +30,7 @@ app.get("/dbl", (request, response) => {
 });
 
 app.get("/api", (request, response) => {
-  response.redirect("https://api.npoint.io/da517b27362c9b03212c");
+  response.redirect("https://api.ritim.xyz");
 });
 
 app.get("/404", (request, response) => {
