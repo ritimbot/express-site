@@ -1,0 +1,15 @@
+{
+  "name": "express-ritim.xyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "Erdem Hacısalihoğlu",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
