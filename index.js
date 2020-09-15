@@ -17,9 +17,9 @@ app.get("/discord", (request, response) => {
   response.redirect("https://discord.gg/9kdBEAj");
 });
 
-app.get("/github", (request, response) => {
-  response.redirect("https://github.com/ritimbot");
-});
+app.get("/github/:repo", (request, response) => {
+  response.redirect("https://github.com/ritimbot/"+request.params.repo)
+})
 
 app.get("/patreon", (request, response) => {
   response.redirect("https://www.patreon.com/ritim");
