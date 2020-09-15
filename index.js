@@ -42,5 +42,5 @@ app.get("*", (request, response) => {
 });
 
 app.listen(process.env.PORT, function() {
-  console.log("ekspires dinlemeede! : " + this.address().port);
+  console.log("ekspires dinlemeede!");
 });
